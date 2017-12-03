@@ -211,6 +211,7 @@ h1.logo {
 #header .logo, #header .toggleDrawer{
   font-family: 'Raleway', sans-serif;
   color: white;
+  
 }
 .logo-head{
   font-family: 'Raleway', sans-serif;
@@ -222,7 +223,7 @@ h1.logo {
 }
 
 #header .slogan{
-  font-size: 4em;
+  font-size: 1.8em;
   margin-bottom: 15px;
   line-height: 1em;
   font-family: 'Raleway', sans-serif;
@@ -230,12 +231,31 @@ h1.logo {
   font-weight: bold;
 }
 
+/* original value
+#header .slogan{
+  font-size: 4em;
+  margin-bottom: 15px;
+  line-height: 1em;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+*/
+
 #header .secondary-slogan{
+  font-size: 1.2em;
+  color: rgba(255,255,255,.5);
+  line-height: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+/* original value 
+#header .secondary-slogan {
   font-size: 1.6em;
   color: rgba(255,255,255,.5);
   line-height: 1em;
   font-family: 'Raleway', sans-serif;
 }
+*/
 
 #header > .bottom {
     position: absolute;
